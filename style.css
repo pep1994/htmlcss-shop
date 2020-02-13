@@ -1,0 +1,53 @@
+/* general */
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  width: 1000px;
+  margin: 7px auto;
+}
+
+.item {
+  display: inline-block;
+  width: 33%;
+  position: relative;
+}
+
+img {
+  width: 100%;
+}
+
+.seconda-sez {
+  margin-top: 15px;
+}
+
+/* sconti */
+
+.discount {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.discount.old {
+  background-color: green;
+}
+
+.discount.new {
+  background-color: red;
+}
+
+
+
+/* cuoricini */
+
+.hearth {
+  color: red;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  font-size: 25px;
+  transform: translateX(50%);
+}
