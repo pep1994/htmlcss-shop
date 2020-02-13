@@ -39,8 +39,6 @@ img {
   background-color: red;
 }
 
-
-
 /* cuoricini */
 
 .hearth {
@@ -50,4 +48,9 @@ img {
   right: 50%;
   font-size: 25px;
   transform: translateX(50%);
+  z-index: -1;
+}
+
+.item:hover .hearth {
+  z-index: 1;
 }
